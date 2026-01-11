@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哦耶周</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 60px 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        .name {
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        
+        .bilibili-link {
+            display: inline-block;
+            background: #00a1d6;
+            color: white;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 161, 214, 0.2);
+        }
+        
+        .bilibili-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 161, 214, 0.3);
+            background: #0087b3;
+        }
+        
+        .url {
+            margin-top: 10px;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                padding: 40px 25px;
+            }
+            
+            .name {
+                font-size: 2.8rem;
+            }
+            
+            .bilibili-link {
+                padding: 14px 32px;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 class="name">哦耶周</h1>
+        <a href="https://b23.tv/M2fDCFI" target="_blank" class="bilibili-link">
+            我的B站主页
+        </a>
+        <div class="url">https://b23.tv/M2fDCFI</div>
+    </div>
+</body>
+</html>
